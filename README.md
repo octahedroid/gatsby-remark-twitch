@@ -1,4 +1,4 @@
-# gatsby-remark-twitter
+# gatsby-remark-twitch
 
 Embed Twitch videos, clips or channels in your Gatsby!
 
