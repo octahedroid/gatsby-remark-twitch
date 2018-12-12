@@ -40,9 +40,9 @@ plugins: [
 ```markdown
 ## My blog post
 
-This is an example of embedding a single tweet card.
+This is an example of embedding twitch media.
 Just type your markdown as you normally do, and then insert a valid
-tweet link anywhere to automatically transform it into an embed!
+twitch link anywhere to automatically transform it into an embed!
 
 #### Twitch video
 
