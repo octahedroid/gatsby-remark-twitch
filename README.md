@@ -1,27 +1,24 @@
 # gatsby-remark-twitch
 
-Embed Twitch videos, clips or channels in your Gatsby!
-
-### [View a live demo here](https://remarktwitch.netlify.com/)
+Embed Twitch videos/clips/channels in Gatsby markdown
 
 ## Install
 
-1. Install plugin to your site:
-
 ```bash
-yarn add gatsby-remark-twitch
+npm install --save @weknow/gatsby-remark-twitch
 ```
 
-2. Add `gatsby-remark-twitch` to your `gatsby-transformer-remark` plugins in `gatsby-config.js`:
+## How to use
 
 ```js
+// In your gatsby-config.js
 plugins: [
   {
     resolve: "gatsby-transformer-remark",
     options: {
       plugins: [
         {
-          resolve:"gatsby-remark-twitch",
+          resolve:"@weknow/gatsby-remark-twitch",
           options: {
             width: 800,
             height: 400
@@ -33,16 +30,14 @@ plugins: [
 ];
 ```
 
-3. Restart gastby.
-
 ## Usage
 
 ```markdown
-## My blog post
+# Blog post title
 
 This is an example of embedding twitch media.
-Just type your markdown as you normally do, and then insert a valid
-twitch link anywhere to automatically transform it into an embed!
+Add any markdown as you normally do, and then insert a valid
+twitch link anywhere to automatically transform it into an embed
 
 #### Twitch video
 
@@ -61,22 +56,11 @@ https://www.twitch.tv/xisuma
 
 > __NOTE:__ Make sure to copy the link instead of embed code.
 
+## How this looks like
+
 <p align="center"><img src="https://i.imgur.com/h1dfPtk.jpg" alt="" /></p>
 
-## Configuration
-
-```js
-plugins: [
-  {
-    resolve: "gatsby-transformer-remark",
-    options: {
-      plugins: [
-        "gatsby-remark-twitter",
-      ]
-    }
-  }
-];
-```
+[View a live demo here](https://remarktwitch.netlify.com/)
 
 ## License
 
