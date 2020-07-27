@@ -15,9 +15,9 @@
     "cross-env": "^5.0.5",
     "unist-util-map": "^1.0.3"
   },
-  "homepage": "https://github.com/weknowinc/gatsby-remark-twitter#readme",
+  "homepage": "https://github.com/octahedroid/gatsby-remark-twitch#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/weknowinc/gatsby-remark-twitter.git"
+    "url": "git+https://github.com/octahedroid/gatsby-remark-twitch.git"
   }
 }
