@@ -21,7 +21,9 @@ plugins: [
           resolve:"@weknow/gatsby-remark-twitch",
           options: {
             width: 800,
-            height: 400
+            height: 400,
+            // Required!
+            domain: 'example.com' // Also accepts "https://example.com/route
           }
         }
       ]
@@ -45,7 +47,7 @@ https://www.twitch.tv/videos/347319713
 
 #### Twitch clip
 
-https://www.twitch.tv/xisuma/clip/MagnificentOilyUdonTTours
+https://clips.twitch.tv/MagnificentOilyUdonTTours
 
 #### Twitch channel
 
